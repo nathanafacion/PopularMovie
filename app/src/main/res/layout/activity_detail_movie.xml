@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_poster_detail"
+            android:layout_width="match_parent"
+            android:layout_height="230dp" />
+
+        <TextView
+            android:padding="15dp"
+            android:textSize="18dp"
+            android:background="#c0c0c0"
+            android:fontFamily="monospace"
+            android:shadowDx="30"
+            android:shadowDy="30"
+            android:shadowColor="@color/colorPrimaryDark"
+            android:id="@+id/tv_title_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:background="#f0f0f0"
+            android:fontFamily="monospace"
+            android:id="@+id/tv_overview_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        <TextView
+            android:padding="15dp"
+            android:textSize="15dp"
+            android:background="#f0f0f0"
+            android:fontFamily="monospace"
+            android:id="@+id/tv_release_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:padding="15dp"
+            android:textSize="18dp"
+            android:background="#c0c0c0"
+            android:fontFamily="monospace"
+            android:id="@+id/tv_average_detail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</ScrollView>
